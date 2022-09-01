@@ -45,6 +45,11 @@ public class WxMaProperties {
   private String msgDataFormat;
 
   /**
+   * 获取AccessToken的Api地址
+   */
+  private String accessTokenUrl;
+
+  /**
    * 存储策略
    */
   private final ConfigStorage configStorage = new ConfigStorage();
